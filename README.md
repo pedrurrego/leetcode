@@ -1,2 +1,2 @@
-# leetcode
-LeetCode excercises solved in Python
+# Leetcode
+LeetCode excercises solved in Python and Go.
