@@ -10,7 +10,7 @@ func averageOfSubtree(root *TreeNode) int {
 
 	count := 0
 
-	var dfs func(*TreeNode) []int // dfs is a variable that holds a reference to a function
+	var dfs func(*TreeNode) []int // dfs is a variable that holds a reference to a function. This function takes an argument of type *TreeNode and returns a slice of int.
 
 	dfs = func(node *TreeNode) []int {
 		if node == nil {
